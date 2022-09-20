@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 
 class TodoItem extends Component {
-  constructor(props) {
-    super(props)
-  
- 
-  }
-
   render() {
     const {title,description}=this.props.data
     return (
