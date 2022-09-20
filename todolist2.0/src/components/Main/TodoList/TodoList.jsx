@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import TodoItem from "./TodoItem";
-import dataToDo from "./Todo.json"
+import dataToDo from "./todo.json"
 
-class Todo extends Component {
+class TodoList extends Component {
   constructor(props) {
     super(props)
 
@@ -79,4 +79,4 @@ class Todo extends Component {
   }
 }
 
-export default Todo;
+export default TodoList;
